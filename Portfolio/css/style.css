@@ -206,9 +206,73 @@ body {
 	text-emphasis:justify;
 }
 
+/*** ABOUT PAGE ***/
+
+#about-image {
+	height:500px;
+	margin-top:150px;
+	float:right;
+	margin-right:50px;
+	-webkit-box-shadow: 1px 1px 1px 1px #ccc;
+    -moz-box-shadow: 1px 1px 1px 1px #ccc;
+    box-shadow: 1px 1px 1px 1px #ccc;
+}
+
+#image-section {
+	width:1200px;
+}
+
+#image-section ul {
+	list-style-type:none;
+	display:inline-block;
+	margin-top:-20px;
+}
+
+#image-section img {
+	width:300px;
+	display:inline-block;
+	margin-left:10px;
+	-webkit-box-shadow: 1px 1px 1px 1px #ccc;
+    -moz-box-shadow: 1px 1px 1px 1px #ccc;
+    box-shadow: 1px 1px 1px 1px #ccc;
+}
+
+#image-section li {
+	float:left;
+	padding-left:30px;
+}
+
+#about-info {
+	float:left;
+	margin-top:55px;
+	width:700px;
+	height:500px;
+	margin-left:30px;
+	margin-bottom:50px;
+	text-align:center;
+	-webkit-box-shadow: 1px 1px 1px 1px #ccc;
+    -moz-box-shadow: 1px 1px 1px 1px #ccc;
+    box-shadow: 1px 1px 1px 1px #ccc;
+}
+
+#cycle-one {
+	position:relative;
+}
+
+#cycle-one img{
+	position:absolute;
+	z-index:1;
+}
+
+#cycle-one img.active{
+	z-index:3;
+}
+
+
 /*** FOOTER ***/
 
 footer {
+	clear:both;
 	padding:6px 40px 6px 40px;
 	font-family:'Bitter', serif;
 	color:#C3C3E5;
