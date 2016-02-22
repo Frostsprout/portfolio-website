@@ -1,0 +1,15 @@
+$ (function() {
+  var moveLeft = 20;
+  var moveDown = 10;
+
+ $('#click-pop').hover(function(e) {
+  $('#popup-1').show()
+     .css('top', e.pageY + moveDown)
+     .css('left', e.pageX + moveLeft)
+     .appendTo('body');
+}, function() {
+   $('#popup-1').hide();
+
+});
+
+});
